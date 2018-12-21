@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_btsettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@mipmap/orig1"
+    android:paddingTop="80dp"
+    android:orientation="vertical"
+    tools:context="com.atakanylmz1.arduinocar1.BtSettings">
+
+
+    <TextView
+        android:id="@+id/txt_bt_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="Bluetooth"
+        android:textColor="#f77f0202"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btn_enable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#1c9501"
+        android:text="OPEN"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_viewConnect_paired"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#c9ac71"
+        android:enabled="false"
+        android:text="CONNECT WITH PAIRED DEVICES"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_scanPair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#a2dfcc"
+        android:enabled="false"
+        android:text="SCAN DEVICES"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btn_aboutArduino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ff4747"
+        android:text="ABOUT ARDUINO CODES"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+</LinearLayout>

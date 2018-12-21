@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="60dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@mipmap/orig"
+
+    tools:context="com.atakanylmz1.arduinocar1.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/ayar1"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle"/>
+
+
+        <Button
+            android:id="@+id/btnHorn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/horn0"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/txtBilgi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Wellcome"
+            android:maxLength="15"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+
+        <TextView
+            android:id="@+id/txtBosSatir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text=".   ."
+            android:maxLength="15"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+
+        >
+
+        <Button
+            android:id="@+id/btnLight1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/far0"
+            tools:ignore="ButtonStyle"/>
+
+        <TextView
+            android:id="@+id/txtBos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=".                  ."
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:id="@+id/btnLight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/far2"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+
+        <Button
+            android:id="@+id/sol_ileri_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/sol_ileri"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/ileri_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/ileri"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:id="@+id/sag_ileri_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/sag_ileri"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/sol_btn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/sol"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/bos_btn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text=" "
+            android:background="@mipmap/orta"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:id="@+id/sag_btn"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/sag"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <Button
+            android:id="@+id/sol_geri_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/sol_geri"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/geri_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/geri"
+            tools:ignore="ButtonStyle"/>
+        <Button
+            android:id="@+id/sag_geri_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@mipmap/sag_geri"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+</LinearLayout>

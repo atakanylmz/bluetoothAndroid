@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="bottom"
+    android:background="@mipmap/orig2"
+    android:paddingTop="100dp"
+    android:orientation="vertical"   tools:context="com.atakanylmz1.arduinocar1.Commands">
+    <TextView
+        android:id="@+id/txt_commands1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Forward:F, Back:B, Left:L, Right:R, Forward_Left:G"
+        android:textColor="#282BB6"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/txt_commands2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Forward_Right:I, Back_Left:H, Back_Right:J, Stop:S"
+        android:textColor="#282BB6"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/txt_commands3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Light1_On:W(upper case), Light1_Off:w(lower case)"
+        android:textColor="#282BB6"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/txt_commands4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Light2_On:U(upper case), Light2_Off:u(lower case)"
+        android:textColor="#282BB6"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/txt_commands5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Horn_On:V(upper case), Horn_Off:v(lower case)"
+        android:textColor="#282BB6"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txt_commands6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="   "
+        android:textColor="#282BB6"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/txt_commands7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="   "
+        android:textColor="#282BB6"
+        android:textSize="14sp"/>
+
+
+
+</LinearLayout>
